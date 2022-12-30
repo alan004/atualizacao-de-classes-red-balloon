@@ -1,5 +1,5 @@
 const classes = ['k1md', 'k2tb', 'k3MBR', 'k4TB', 'J', 'J1M', 'J2MC', "tamd", "j2", "t6"]
-const excecoes = ["ta", "k4", "j2", "t6"]
+const excecoes = ["ta", "k4", "j2", "t6", "TA", "K4", "J2", "T6"]
 const novasClasses = []
 
 classes.forEach(element => {
