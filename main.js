@@ -14,7 +14,7 @@ function sobeEstagio(estagio) {
     novaTurma = estagio.charAt(0) + (numeroTurma+=1) + estagio.slice(2) //Junta as informações e monta nova turma:
     novasClasses.push(novaTurma.toUpperCase())
 } else if (num == -1 && excecoes.includes(outros) !== true) { //trata das turmas sem número
-    novaTurma = estagio.charAt(0) + 1
+    novaTurma = estagio.charAt(0) + 1 + estagio.slice(1)
     novasClasses.push(novaTurma.toUpperCase())
 } else {
     if(outros == "ta"){
