@@ -17,18 +17,18 @@ function sobeEstagio(estagio) {
     novaTurma = estagio.charAt(0) + 1 + estagio.slice(1)
     novasClasses.push(novaTurma.toUpperCase())
 } else {
-    if(outros == "ta"){
+    if(outros == "ta" || outros == "TA"){
     novaTurma = "T2" + estagio.slice(2)
     novasClasses.push(novaTurma.toUpperCase())}
-    else if(outros == "k4"){
+    else if(outros == "k4" || outros == "K4" ){
         novaTurma = "J" + estagio.slice(2)
         novasClasses.push(novaTurma.toUpperCase())
     }
-    else if (outros == "j2") {
+    else if (outros == "j2" || outros == "J2") {
         novaTurma = "T1" + estagio.slice(2)
         novasClasses.push(novaTurma.toUpperCase())
     }
-    else if (outros == "t6") {
+    else if (outros == "t6" || outros == "T6") {
        novasClasses.push("Aluno concluiu o Curso") 
     }
     else{
